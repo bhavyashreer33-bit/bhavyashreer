@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-w7K7XKkzvJ6ZwDb+iyf3rUrJrrAnBmctC3YOGkN2e8wBnA+7Qsw3Ol2OeMPbFq9nY2CPhKGPx2z5r3k+Y1oN/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-w7K7XKkzvJ6ZwDb+iyf3rUrJrrAnBmctC3YOGkN2e8wBnA+7Qsw3Ol2OeMPbFq9nY2CPhKGP[...]
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -57,7 +57,7 @@
 
         <div class="hero-card glass-card reveal">
           <div class="profile-frame">
-            <img src="images/profile.jpeg" alt="Bhavyashree profile photo">
+            <img src="./images/profile.jpeg" alt="Bhavyashree profile photo" onerror="console.log('Image failed: ' + this.src)">
           </div>
           <div class="hero-card-body">
             <div class="hero-stat">
@@ -270,7 +270,7 @@
       </div>
       <div class="container certificates-grid">
         <div class="certificate-card reveal" data-modal-target="#modalCert1">
-          <img src="images/cert1.jpeg" alt="Agrivision 2.0 certificate">
+          <img src="./images/cert1.jpeg" alt="Agrivision 2.0 certificate" onerror="console.log('Image failed: ' + this.src)">
           <div class="certificate-info">
             <h3>Agrivision 2.0 Participation Certificate</h3>
             <p>KLS Gogte Institute of Technology, Belagavi — 8th & 9th April 2026</p>
@@ -316,7 +316,7 @@
     <div class="modal-content">
       <button class="modal-close" data-close>&times;</button>
       <h3>Agrivision 2.0 Participation Certificate</h3>
-      <img src="images/cert1.jpeg" alt="Agrivision certificate preview">
+      <img src="./images/cert1.jpeg" alt="Agrivision certificate preview" onerror="console.log('Image failed: ' + this.src)">
       <p>Issued by KLS Gogte Institute of Technology, Belagavi. Signed by Prof. Sujata Bhavikati (IIC President), Prof. Yogita Potadar, Prof. S.P. Deshapande, Dr. M.S. Patil (Principal).</p>
     </div>
   </div>
