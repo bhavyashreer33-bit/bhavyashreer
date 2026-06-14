@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavyashree R | CSBS Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-w7K7XKkzvJ6ZwDb+iyf3rUrJrrAnBmctC3YOGkN2e8wBnA+7Qsw3Ol2OeMPbFq9nY2CPhKGPx2z5r3k+Y1oN/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="custom-cursor" id="customCursor"></div>
+
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Bhavyashree<span>R</span></a>
+      <nav class="nav" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark light mode"><i class="fa-solid fa-moon"></i></button>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shapes"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Bhavyashree <span>R</span></h1>
+          <p class="hero-title">B.Tech Computer Science and Business Systems Student</p>
+          <p class="typing-text"><span id="typedText"></span><span class="cursor">|</span></p>
+          <p class="hero-description">Passionate CS & Business Systems student with interests in Web Development, Python, AI, Digital Marketing, and Creative Technologies.</p>
+          <div class="hero-social">
+            <a href="mailto:bhavyashreer33@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-card glass-card reveal">
+          <div class="profile-frame">
+            <img src="images/profile.jpeg" alt="Bhavyashree profile photo">
+          </div>
+          <div class="hero-card-body">
+            <div class="hero-stat">
+              <span>8.6</span>
+              <p>CGPA</p>
+            </div>
+            <div class="hero-stat">
+              <span>VTU</span>
+              <p>CSBS 2025–2029</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container section-header">
+        <span>About Me</span>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="container about-grid">
+        <div class="glass-card about-card reveal">
+          <h3>CSBS Student at VTU</h3>
+          <p>First-year CSBS student at VTU with an 8.6 CGPA. Schooling from Jawahar Navodaya Vidyalaya, Chikkaballapur (CBSE, Science PCMB).</p>
+          <p>Passionate about Web Development, Python, AI, Digital Marketing, and Content Creation. Loves hackathons and building projects.</p>
+        </div>
+        <div class="about-features">
+          <div class="feature-card reveal">
+            <i class="fa-solid fa-code"></i>
+            <h4>Web Development</h4>
+            <p>Modern responsive interfaces with a premium user experience.</p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fa-brands fa-python"></i>
+            <h4>Python & AI</h4>
+            <p>Building intelligent solutions and learning AI/ML tools daily.</p>
+          </div>
+          <div class="feature-card reveal">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h4>Creative Technologies</h4>
+            <p>Design, digital marketing, content creation, and storytelling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education section" id="education">
+      <div class="container section-header">
+        <span>Education</span>
+        <h2>Learning Journey</h2>
+      </div>
+      <div class="container timeline">
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2025 - 2029</span>
+          <h3>B.Tech Computer Science and Business Systems</h3>
+          <p>Visvesvaraya Technological University, Belagavi. CGPA: 8.6.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2024</span>
+          <h3>Class XII Science (PCMB)</h3>
+          <p>Jawahar Navodaya Vidyalaya, Chikkaballapur. CBSE Board.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2022</span>
+          <h3>Class X</h3>
+          <p>Jawahar Navodaya Vidyalaya, Chikkaballapur. CBSE Board.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container section-header">
+        <span>Skills</span>
+        <h2>What I Do</h2>
+      </div>
+      <div class="container skills-grid">
+        <div class="skill-card reveal">
+          <h3>Programming</h3>
+          <p>C, Python</p>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Web</h3>
+          <p>HTML, CSS, JavaScript, Frontend Development</p>
+        </div>
+        <div class="skill-card reveal">
+          <h3>AI & GenAI</h3>
+          <p>ChatGPT, Claude, Gemini, Perplexity, GitHub Copilot, AI image/video/voiceover generation</p>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Design</h3>
+          <p>Canva, Adobe Photoshop, Adobe Animate, Adobe PageMaker, CapCut, video/audio editing</p>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Productivity</h3>
+          <p>MS Word, Excel, PowerPoint, Google Docs, Sheets, Slides, Forms, Drive</p>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Professional</h3>
+          <p>Digital Marketing, Content Writing, Creative Writing, Event Management, Entrepreneurship</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hobbies section" id="hobbies">
+      <div class="container section-header">
+        <span>Hobbies & Interests</span>
+        <h2>What I Enjoy</h2>
+      </div>
+      <div class="container hobbies-grid">
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-book-open"></i>
+          <h3>Learning New Things</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-camera"></i>
+          <h3>Photography</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-microchip"></i>
+          <h3>Tech Knowledge</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-rocket"></i>
+          <h3>Startup Mindset</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-bullhorn"></i>
+          <h3>Digital Marketing</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h3>Content Creation</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Web Designing</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-robot"></i>
+          <h3>AI Exploration</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-film"></i>
+          <h3>Video Editing</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-lightbulb"></i>
+          <h3>Creative Thinking</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-calendar-check"></i>
+          <h3>Event Management</h3>
+        </div>
+        <div class="hobby-card glass-card reveal">
+          <i class="fa-solid fa-newspaper"></i>
+          <h3>Reading Tech Articles</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container section-header">
+        <span>Projects</span>
+        <h2>Recent Work</h2>
+      </div>
+      <div class="container projects-grid">
+        <div class="project-card reveal">
+          <h3>Personal Portfolio Website</h3>
+          <p>Responsive portfolio showcasing skills, education, achievements using modern web technologies.</p>
+        </div>
+        <div class="project-card reveal">
+          <h3>Agrivision 2.0 National Agri-thon</h3>
+          <p>National hackathon on sustainable agriculture. Collaborated in a team to solve real-world challenges.</p>
+        </div>
+        <div class="project-card reveal">
+          <h3>Digital Website Design</h3>
+          <p>Designed and developed creative digital websites with modern UI/UX principles, attractive layouts, and responsive design using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements section" id="achievements">
+      <div class="container section-header">
+        <span>Achievements</span>
+        <h2>Highlights</h2>
+      </div>
+      <div class="container achievements-grid">
+        <div class="achievement-card reveal">
+          <i class="fa-solid fa-award"></i>
+          <h3>8.6 CGPA</h3>
+          <p>Strong academic performance in the first semester of engineering.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <i class="fa-solid fa-people-group"></i>
+          <h3>Agrivision 2.0</h3>
+          <p>Participated in a national level agri-thon to build sustainable solutions.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <i class="fa-solid fa-brain"></i>
+          <h3>Continuous Learning</h3>
+          <p>Actively learning Web Dev, Python, AI, and digital technologies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates section" id="certificates">
+      <div class="container section-header">
+        <span>Certificates</span>
+        <h2>Credential Gallery</h2>
+      </div>
+      <div class="container certificates-grid">
+        <div class="certificate-card reveal" data-modal-target="#modalCert1">
+          <img src="images/cert1.jpeg" alt="Agrivision 2.0 certificate">
+          <div class="certificate-info">
+            <h3>Agrivision 2.0 Participation Certificate</h3>
+            <p>KLS Gogte Institute of Technology, Belagavi — 8th & 9th April 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container section-header">
+        <span>Contact</span>
+        <h2>Let's Connect</h2>
+      </div>
+      <div class="container contact-grid reveal">
+        <div class="contact-card glass-card">
+          <h3>Get in Touch</h3>
+          <p>Email: <a href="mailto:bhavyashreer33@gmail.com">bhavyashreer33@gmail.com</a></p>
+          <p>Phone: +91 76187 37456</p>
+          <p>Location: Belagavi, Karnataka, India</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Bhavyashree R</h3>
+        <p>CSBS Student | Web Developer | AI Enthusiast</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Bhavyashree R. Designed with violet gradients and glassmorphism.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="modalCert1">
+    <div class="modal-content">
+      <button class="modal-close" data-close>&times;</button>
+      <h3>Agrivision 2.0 Participation Certificate</h3>
+      <img src="images/cert1.jpeg" alt="Agrivision certificate preview">
+      <p>Issued by KLS Gogte Institute of Technology, Belagavi. Signed by Prof. Sujata Bhavikati (IIC President), Prof. Yogita Potadar, Prof. S.P. Deshapande, Dr. M.S. Patil (Principal).</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
